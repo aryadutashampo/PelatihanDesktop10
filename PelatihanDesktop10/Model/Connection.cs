@@ -21,7 +21,7 @@ namespace PelatihanDesktop10.Model
         public MySqlConnection GetConn()
         {
             MySqlConnection conn = new MySqlConnection();
-            conn.ConnectionString = "server=localhost;user=root;database=Pertemuan10";
+            conn.ConnectionString = "server=localhost;user=root;database=DutaStore";
             try
             {
                 conn.Open();
